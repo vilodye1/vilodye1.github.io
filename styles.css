@@ -4,16 +4,17 @@ body {
     background-color: #021306;
 }
 
-.video-background {
+/* .video-background {
     width: 100vw;
     min-height: 100vh;
     overflow-y: hidden;
-}
+} */
 
 video {
     position: absolute;
     top:0;
     left:0;
+    width: 1200px;
 }
 
 
