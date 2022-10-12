@@ -97,7 +97,7 @@ a {
 }
 .profile-img {
 border-radius: 50%;
-border: 3px double #fff;
+border: 3px solid #fff;
 width: 300px;
 height: 325px;
 margin: 20px;
@@ -105,7 +105,7 @@ margin: 20px;
 
 .about-me-p {
     width: 75%;
-    margin: 0 auto;
+    margin: 30px auto;
     font-size: 1.5em;
     padding-bottom: 50px;
     letter-spacing: 1.2px;
