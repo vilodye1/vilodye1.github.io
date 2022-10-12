@@ -4,6 +4,7 @@ body {
     color: white;
     margin: 0;
     background-color: #021306;
+    scroll-behavior: smooth;
 }
 /* Title */
 .video-background {
