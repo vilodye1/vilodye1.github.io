@@ -5,7 +5,7 @@ body {
     margin: 0;
     background-color: #021306;
 }
-
+/* Title */
 .video-background {
     width: 100vw;
     min-height: 100vh;
@@ -39,5 +39,43 @@ video {
     margin-left: 120px;
     letter-spacing: 2px;
     font-family: Macondo, sans-serif;
+}
 
+/* navbar */
+.navbar {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 50px 10px #021306;
+    z-index: 10;
+    margin-top: -20px;
+    border-bottom: 1px solid rgb(75, 113, 82);
+}
+
+
+.nav-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.nav-list li {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    border-bottom: 1px solid rgba(255,255,255, 0);
+    border-top: 1px solid rgba(255,255,255, 0);
+}
+
+.nav-list li:hover {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
