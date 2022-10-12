@@ -1,8 +1,8 @@
-/* body {
+body {
+    color: white;
     margin: 0;
-    text-align: center;
-    background: #fff;
-} */
+    background-color: #021306;
+}
 
 .video-background {
     position: relative;
