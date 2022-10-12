@@ -134,7 +134,9 @@ margin: 20px;
 }
 
 .skills-used {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
 
 }
 
