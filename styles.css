@@ -34,7 +34,7 @@ body {
     margin: 0;
 }
 
-.container p {
+p {
     font-size: 1.5em;
     margin-left: 120px;
     letter-spacing: 2px;
