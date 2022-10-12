@@ -143,3 +143,12 @@ margin: 20px;
     margin-top: 10px;
 }
 
+button {
+    background: rgb(75, 113, 82);
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 20px;
+    
+}
+
