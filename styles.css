@@ -129,6 +129,7 @@ margin-bottom: 30px;
 }
 .project-container img {
     max-width: 500px;
+    height: 300px;
 }
 .description {
     margin: 15px;
