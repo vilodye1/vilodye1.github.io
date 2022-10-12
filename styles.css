@@ -127,5 +127,10 @@ margin: 20px;
     text-align: justify;
     letter-spacing: 1.2px;
     line-height: 1.6;
+    font-size: 1.2em;
+}
+.skills-used {
+    text-align: center;
+
 }
 
