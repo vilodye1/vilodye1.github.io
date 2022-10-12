@@ -113,5 +113,8 @@ margin: 20px;
 }
 
 /* Projects Section */
-
+.project-container {
+    max-width: 350px;
+    
+}
 
