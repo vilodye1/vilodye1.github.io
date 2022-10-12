@@ -93,7 +93,7 @@ a {
 .section-title {
     font-family: Macondo, sans-serif;
     font-size: 48px;
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
 }
 .profile-img {
