@@ -187,4 +187,5 @@ button:hover {
     justify-content: center;
     gap: 50px;
     font-size: 24px;
+    height: 50%;
 }
