@@ -171,10 +171,12 @@ button:hover {
 }
 
 /* contact section */
+#contact {
+    height: 100vh;
+}
 .contacts-title {
     font-family: Macondo, sans-serif;
     font-size: 48px;
-    height: 100vh;
     text-align: center;
 }
 
