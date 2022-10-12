@@ -162,3 +162,6 @@ button {
     margin: 20px;
 }
 
+button:hover {
+    filter: brightness(90%);
+}
