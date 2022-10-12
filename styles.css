@@ -42,10 +42,10 @@ video {
 }
 
 /* navbar */
-/* .navbar {
+.navbar {
     position: sticky;
     width: 100%;
-    top:0;
+    bottom:0;
     left:0;
     padding-bottom: 10px;
     backdrop-filter: blur(5px);
@@ -53,7 +53,7 @@ video {
     z-index: 10;
     margin-top: -20px;
     border-bottom: 1px solid rgb(75, 113, 82);
-} */
+}
 .nav-list ul {
     display: flex;
     flex-direction: row;
