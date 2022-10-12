@@ -79,5 +79,18 @@ video {
     border-top: 1px solid white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* About Me Section*/
 
+#about-me {
+    text-align: center;
+}
+
+.about-me-title {
+    font-family: Macondo, sans-serif;
+    font-size: 1.2em;
+}
