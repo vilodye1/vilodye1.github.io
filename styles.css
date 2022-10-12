@@ -90,10 +90,11 @@ a {
     text-align: center;
 }
 
-.about-me-title {
+.section-title {
     font-family: Macondo, sans-serif;
     font-size: 48px;
     margin-top: 50px;
+    text-align: center;
 }
 .profile-img {
 border-radius: 50%;
@@ -110,5 +111,7 @@ margin: 20px;
     padding-bottom: 50px;
     letter-spacing: 1.2px;
 }
+
+/* Projects Section */
 
 
