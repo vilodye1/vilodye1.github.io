@@ -131,13 +131,14 @@ margin: 20px;
 }
 .project-container h2 {
     background: rgb(75, 113, 82);
-    padding: 10px;
+    padding: 20px;
+    margin: 0;
 }
 
 .skills-used {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    color: rgb(62, 94, 68);
+    gap: 50px;
+    color: rgb(137, 195, 213);
 }
 
