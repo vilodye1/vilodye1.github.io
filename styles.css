@@ -7,7 +7,8 @@ body {
 }
 /* Title */
 .video-background {
-    width: 100vw;
+    position: relative;
+    width: 100%;
     min-height: 100vh;
     overflow-y: hidden;
 }
@@ -43,7 +44,7 @@ video {
 
 /* navbar */
 .navbar {
-    position: fixed;
+    position: sticky;
     width: 100%;
     top:0;
     left:0;
