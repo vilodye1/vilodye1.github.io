@@ -174,8 +174,7 @@ button:hover {
 .contacts-title {
     font-family: Macondo, sans-serif;
     font-size: 48px;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    height: 100vh;
     text-align: center;
 }
 
