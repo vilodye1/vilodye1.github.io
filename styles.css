@@ -171,6 +171,14 @@ button:hover {
 }
 
 /* contact section */
+.contacts-title {
+    font-family: Macondo, sans-serif;
+    font-size: 48px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .links {
     display: flex;
     flex-direction: row;
