@@ -136,7 +136,6 @@ margin: 20px;
 .skills-used {
     display: flex;
     justify-content: center;
-    gap: 2px;
-
+    gap: 10px;
 }
 
