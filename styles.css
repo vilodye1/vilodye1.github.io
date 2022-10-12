@@ -1,5 +1,41 @@
-body {
+/* body {
     margin: 0;
     text-align: center;
     background: #fff;
+} */
+
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+video {
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+.container {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 65%;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    font-size: 60px;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin-left: 120px;
+    letter-spacing: 2px;
+    font-family: Macondo, sans-serif;
+
 }
