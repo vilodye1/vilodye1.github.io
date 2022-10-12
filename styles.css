@@ -96,5 +96,6 @@ a {
 }
 .about-me-p {
     width: 75%;
+    text-align: center;
     font-size: 1.5em;
 }
