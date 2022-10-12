@@ -130,7 +130,7 @@ margin: 20px;
     font-size: 1.2em;
 }
 .project-container h2 {
-    background: rgb(75, 113, 82);
+    text-decoration: underline;
     padding: 20px;
     margin: 0;
 }
@@ -140,5 +140,6 @@ margin: 20px;
     justify-content: center;
     gap: 50px;
     color: rgb(137, 195, 213);
+    margin-top: 10px;
 }
 
