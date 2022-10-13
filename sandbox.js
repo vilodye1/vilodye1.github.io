@@ -10,7 +10,7 @@ listItems.forEach(li => {
         e.target.classList.add('onClick');
 
         for(i=0; i < para.length; i++) {
-            console.log(para);
+            console.log(para[i]);
         }
     })
 
