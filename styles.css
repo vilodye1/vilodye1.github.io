@@ -248,4 +248,41 @@ button:hover {
         top:245px;
         left: 25%;
     }
+
+    .name {
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1.5px;
+        font-size: 36px;
+        margin: 0;
+    }
+    
+    /* .subname {
+        font-size: 1.5em;
+        margin-left: 120px;
+        letter-spacing: 2px;
+        font-family: Macondo, sans-serif;
+    }
+    
+    .arrows {
+        position: absolute;
+        color: #fff;
+        font-size: 40px;
+        left: 50%;
+        top: 89%;
+        animation: arrows 3s infinite
+    }
+    
+    @keyframes arrows {
+        0% {
+            transform: scale(1.2);
+        }
+    
+        50% {
+            transform: scale(1);
+        }
+    
+        100% {
+            transform: scale(1.2);
+        }
+    } */
 }
