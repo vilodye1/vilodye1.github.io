@@ -345,11 +345,11 @@ button:hover {
     }
 
     .name {
-        font-size: 48px;
+        font-size: 56px;
     }
     
     .subname {
-        font-size: 1.5em;
+        font-size: 2em;
         margin-left: 20px;
     }
 
