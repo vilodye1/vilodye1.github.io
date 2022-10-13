@@ -12,6 +12,8 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
   }
 
+  document.getElementById("defaultOpen").click();
+
 
 // const aboutNav = document.getElementsByClassName('about-nav');
 // const listItems = document.querySelectorAll('.about-nav-li');
