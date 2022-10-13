@@ -50,7 +50,7 @@ video {
     position: absolute;
     color: #fff;
     font-size: 40px;
-    margin: 0 auto;
+    left: 50%;
 }
 
 /* navbar */
