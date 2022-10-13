@@ -79,12 +79,12 @@ video {
 }
 
 .nav-list li:hover {
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-top: 1px solid rgb(196, 196, 196);
 }
 
 a {
-    color: white;
+    color: rgb(196, 196, 196);
     text-decoration: none;
 }
 
