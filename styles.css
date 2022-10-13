@@ -203,3 +203,7 @@ button:hover {
 i {
     color: black;
 }
+
+i:hover {
+    color:rgb(66, 49, 75);
+}
