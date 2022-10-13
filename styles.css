@@ -169,6 +169,9 @@ margin-bottom: 30px;
 .onClick {
     background-color:rgb(66, 49, 75)
 }
+.hidden {
+    display: none;
+}
 
 /* Projects Section */
 .project-container {

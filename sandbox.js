@@ -1,3 +1,3 @@
 const aboutNav = document.getElementsByClassName('about-nav');
-
-console.log(aboutNav);
+const listItems = document.querySelector('li')
+console.log(listItems);
