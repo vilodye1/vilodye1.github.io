@@ -9,7 +9,7 @@ listItems.forEach(li => {
         }
         e.target.classList.add('onClick');
         if (e.target.classList.contains('onClick')) {
-            para.classList.replace('hidden', 'active');
+            para.className.replace('hidden', 'active');
         }
 
 
