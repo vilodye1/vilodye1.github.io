@@ -167,6 +167,14 @@ margin-bottom: 30px;
 }
 
 /* Style the tab */
+.tab {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+  
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
