@@ -198,5 +198,8 @@ button:hover {
     justify-content: center;
     gap: 50px;
     font-size: 40px;
+}
+
+i {
     color: black;
 }
