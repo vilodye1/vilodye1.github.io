@@ -272,14 +272,14 @@ button:hover {
     border-radius: 50%;
     border: 3px solid #fff;
     width: 200px;
-    height: 225px;
+    height: 215px;
     margin-bottom: 20px;
     }
-/*     
+    
     .about-me-p {
-        width: 75%;
+        width: 90%;
         margin: 30px auto;
-        font-size: 1.5em;
+        font-size: 1.2em;
         letter-spacing: 1.2px;
-    } */
+    }
 }
