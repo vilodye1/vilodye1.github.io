@@ -328,6 +328,7 @@ button:hover {
     .video-background {
         height: 100vh;
         width: 100vw;
+        overflow-x: hidden;
     }
 
     video {
@@ -338,8 +339,8 @@ button:hover {
     }
 
     .container {
-        top:245px;
-        left: 25%;
+        top:500px;
+        left: 50%;
         text-align: center;
     }
 
