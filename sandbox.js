@@ -8,6 +8,8 @@ listItems.forEach(li => {
     console.log(li.innerText);
 })
 
-listItems.addEventListener('click', (li) => {
-    console.log(li)
-})
+listItems.addEventListener('click', () => {
+    listItems.forEach(li => {
+        console.log(li.innerText);
+    });
+});
