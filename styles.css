@@ -172,7 +172,6 @@ button:hover {
 
 /* contact section */
 #contact {
-    
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -186,9 +185,6 @@ button:hover {
     width: 100vw;
     height: 100vh;
     background: rgba(255,255,255,0.5);
-    background-image: url('https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
-    background-position: center;
-    background-size:cover;
 }
 .contacts-title {
     font-family: Macondo, sans-serif;
