@@ -49,7 +49,8 @@ video {
 .arrows {
     color: #fff;
     display: absolute;
-    font-size: 48px;
+    font-size: 40px;
+    bottom: 20px;
     left:50%;
 }
 
