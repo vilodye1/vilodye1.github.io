@@ -1,7 +1,6 @@
 const aboutNav = document.getElementsByClassName('about-nav');
 const listItems = document.querySelectorAll('.about-nav-li');
-const tabContent = document.querySelectorAll('.tabcontent');
-
+const para = document.querySelectorAll('.about-me-p');
 // Tab Toggle
 listItems.forEach(li => {
     li.addEventListener('click', (e) => {
@@ -9,10 +8,9 @@ listItems.forEach(li => {
             listItems[i].className = listItems[i].className.replace("onClick", "");
         }
         e.target.classList.add('onClick');
-        if (e.target.classList.includes('onClick')) {
-            for (i=0; i < tabContent.length; i++) {
-                tabContent[i].className = tabContent[i].className.replace("hidden", "");
-            } 
+
+        for(i=0; i < para.length; i++) {
+            para[i].className = para[i].className.replace('hidden', 'active');
         }
     })
 
