@@ -48,6 +48,8 @@ video {
 
 .arrows {
     color: #fff;
+    display: absolute;
+    font-size: 48px;
 }
 
 /* navbar */
