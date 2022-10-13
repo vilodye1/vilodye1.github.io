@@ -245,6 +245,7 @@ button:hover {
     }
 
     .container {
-        margin: 0 auto;
+        top:0;
+        left: 0;
     }
 }
