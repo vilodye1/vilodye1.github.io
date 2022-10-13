@@ -198,7 +198,6 @@ button:hover {
     background-image: url('https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
     background-position: center;
     background-size:cover;
-
 }
 .box{
     min-height: 100vh;
@@ -324,7 +323,7 @@ button:hover {
 
 /* tablets */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .video-background {
         height: 100vh;
         overflow-x: hidden;
@@ -369,13 +368,13 @@ button:hover {
     margin-bottom: 20px;
     }
     
-    .about-me-p {
+    /* .about-me-p {
         width: 90%;
         margin: 30px auto;
         font-size: 1.2em;
         letter-spacing: 1.2px;
         text-align: justify;
-    }
+    } */
 
     .project-container {
         text-align: center;
