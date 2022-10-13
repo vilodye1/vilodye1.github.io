@@ -8,13 +8,17 @@ listItems.forEach(li => {
             listItems[i].className = listItems[i].className.replace("onClick", "");
         }
         e.target.classList.add('onClick');
-
-        for(i=0; i < para.length; i++) {
-            if(para[i].classList.contains('active')) {
-              console.log(para[i]);  
-            }
-            
+        if (e.target.classList.contains('onClick')) {
+            para.classList.replace('hidden', 'active');
         }
+
+
+        // for(i=0; i < para.length; i++) {
+        //     if(para[i].classList.contains('active')) {
+        //       console.log(para[i]);  
+        //     }
+            
+        // }
     })
 
 })
