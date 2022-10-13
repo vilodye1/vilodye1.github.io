@@ -47,6 +47,7 @@ video {
 }
 
 .arrows {
+    position: absolute;
     color: #fff;
     font-size: 40px;
     margin: 0 auto;
