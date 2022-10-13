@@ -239,7 +239,7 @@ button:hover {
     }
 
     video {
-        object-fit: contain;
+        object-fit: cover;
         margin-top: -1px;
     }
 }
