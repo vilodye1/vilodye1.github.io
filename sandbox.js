@@ -6,6 +6,9 @@ const listItems = document.querySelectorAll('.about-nav-li')
 
 listItems.forEach(li => {
     li.addEventListener('click', () => {
+        if (!li.classList.includes('onClick')) {
+            li.classList.add('onClick')
+        }
         console.log(li.innerText);
     })
 })
