@@ -8,7 +8,7 @@ listItems.forEach(li => {
             listItems[i].className = listItems[i].className.replace("onClick", "");
         }
         e.target.classList.add('onClick');
-        e.target.classList.replace('hidden', "");
+        e.target.className.replace('hidden', "");
     })
 
 })
