@@ -316,6 +316,7 @@ button:hover {
     .skills-used {
         gap: 10px;
         margin-top: 10px;
+        flex-flow: row wrap;
     }
     
 }
