@@ -240,7 +240,7 @@ button:hover {
 
     video {
         object-fit: cover;
-        object-position: 10%;
+        object-position: 40%;
         margin-top: -1px;
         width: 100vw;
     }
