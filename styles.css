@@ -258,27 +258,8 @@ button:hover {
         font-size: 1.2em;
         margin-left: 0px;
     }
-/*     
-    .arrows {
-        position: absolute;
-        color: #fff;
-        font-size: 40px;
-        left: 50%;
-        top: 89%;
-        animation: arrows 3s infinite
+
+    .navbar {
+        display: none;
     }
-    
-    @keyframes arrows {
-        0% {
-            transform: scale(1.2);
-        }
-    
-        50% {
-            transform: scale(1);
-        }
-    
-        100% {
-            transform: scale(1.2);
-        }
-    } */
 }
