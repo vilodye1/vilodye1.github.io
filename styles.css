@@ -243,4 +243,8 @@ button:hover {
         object-fit: cover;
         margin-top: -1px;
     }
+
+    .container {
+        margin: 0 auto;
+    }
 }
