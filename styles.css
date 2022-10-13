@@ -52,6 +52,21 @@ video {
     font-size: 40px;
     left: 50%;
     top: 89%;
+    animation: arrows 3s infinite
+}
+
+@keyframes arrows {
+    0% {
+        transform: scale(1.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
 }
 
 /* navbar */
