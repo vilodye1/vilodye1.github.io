@@ -365,9 +365,9 @@ button:hover {
     .profile-img {
     border-radius: 50%;
     border: 3px solid #fff;
-    width: 200px;
+    /* width: 200px;
     height: 215px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
     }
     
     .about-me-p {
