@@ -262,4 +262,24 @@ button:hover {
     .navbar {
         display: none;
     }
+
+    .section-title {
+        padding-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .profile-img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 200px;
+    height: 225px;
+    margin-bottom: 20px;
+    }
+/*     
+    .about-me-p {
+        width: 75%;
+        margin: 30px auto;
+        font-size: 1.5em;
+        letter-spacing: 1.2px;
+    } */
 }
