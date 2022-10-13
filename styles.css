@@ -139,6 +139,12 @@ margin-bottom: 30px;
     letter-spacing: 1.2px;
 }
 
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space between;
+}
+
 /* Projects Section */
 .project-container {
     text-align: center;
@@ -284,6 +290,10 @@ button:hover {
         font-size: 1.2em;
         letter-spacing: 1.2px;
         text-align: justify;
+    }
+
+    .about-flex{
+        display: none;
     }
 
     .project-container {
