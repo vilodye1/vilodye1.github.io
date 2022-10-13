@@ -175,12 +175,19 @@ button:hover {
     background-image: url('https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
     background-position: center;
     background-size:cover;
-    
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,0.5);
 }
 .contacts-title {
     font-family: Macondo, sans-serif;
