@@ -335,7 +335,6 @@ button:hover {
         object-fit: cover;
         object-position: 35%;
         margin-top: -1px;
-        width: 100vw;
     }
 
     .container {
