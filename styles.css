@@ -235,7 +235,8 @@ button:hover {
 @media screen and (max-width: 600px) {
     .video-background {
         height: 100vh;
-        overflow-x: auto;
+        width: 100%;
+        overflow-x: hidden;
     }
 
     video {
