@@ -152,7 +152,12 @@ margin-bottom: 30px;
 .about-nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.about-nav li {
+    list-style-type: none;
+    font-size: 1.2em;
 }
 
 /* Projects Section */
