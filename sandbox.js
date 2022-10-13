@@ -10,7 +10,7 @@ listItems.forEach(li => {
         e.target.classList.add('onClick');
 
         for(i=0; i < para.length; i++) {
-            if(para.classList.contains('active')) {
+            if(para[i].classList.contains('active')) {
               console.log(para[i]);  
             }
             
