@@ -200,10 +200,10 @@ button:hover {
     font-size: 60px;
 }
 
-i {
+.links i {
     color: black;
 }
 
-i:hover {
+.links i:hover {
     color:rgb(66, 49, 75);
 }
