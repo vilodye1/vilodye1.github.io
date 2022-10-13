@@ -148,6 +148,13 @@ margin-bottom: 30px;
     gap: 50px;
 }
 
+/* About nav */
+.about-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Projects Section */
 .project-container {
     text-align: center;
