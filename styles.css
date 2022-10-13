@@ -230,3 +230,11 @@ button:hover {
 .links i:hover {
     color:rgb(66, 49, 75);
 }
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+    .video-background {
+        width: 100vw;
+        height: 100vh;
+    }
+}
