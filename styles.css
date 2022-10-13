@@ -46,7 +46,7 @@ video {
     font-family: Macondo, sans-serif;
 }
 
-.arrows {
+.arrows i{
     color: #fff;
     display: absolute;
     font-size: 40px;
