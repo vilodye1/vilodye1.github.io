@@ -46,6 +46,10 @@ video {
     font-family: Macondo, sans-serif;
 }
 
+.arrows {
+    color: #fff;
+}
+
 /* navbar */
 .navbar {
     position: sticky;
