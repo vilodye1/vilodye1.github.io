@@ -247,6 +247,7 @@ button:hover {
     .container {
         top:245px;
         left: 25%;
+        text-align: center;
     }
 
     .name {
@@ -254,7 +255,7 @@ button:hover {
     }
     
     .subname {
-        font-size: 1em;
+        font-size: 1.2em;
         margin-left: 0px;
     }
 /*     
