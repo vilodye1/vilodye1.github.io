@@ -281,5 +281,6 @@ button:hover {
         margin: 30px auto;
         font-size: 1.2em;
         letter-spacing: 1.2px;
+        text-align: justify;
     }
 }
