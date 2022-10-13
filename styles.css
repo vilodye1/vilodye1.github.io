@@ -46,12 +46,10 @@ video {
     font-family: Macondo, sans-serif;
 }
 
-.arrows i{
+.arrows {
     color: #fff;
-    display: absolute;
     font-size: 40px;
-    top: 0;
-    left:0;
+    margin: 0 auto;
 }
 
 /* navbar */
