@@ -10,7 +10,7 @@ listItems.forEach(li => {
         e.target.classList.add('onClick');
 
         for(i=0; i < para.length; i++) {
-            para[i].className = para[i].className.replace('hidden', 'active');
+            para[i].style.display = none;
         }
     })
 
