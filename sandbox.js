@@ -5,11 +5,7 @@ const listItems = document.querySelectorAll('.about-nav-li')
 
 
 listItems.forEach(li => {
-    console.log(li.innerText);
-})
-
-listItems.addEventListener('click', () => {
-    listItems.forEach(li => {
+    li.addEventListener('click', () => {
         console.log(li.innerText);
-    });
-});
+    })
+})
