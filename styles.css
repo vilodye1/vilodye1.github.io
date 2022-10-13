@@ -172,13 +172,16 @@ button:hover {
 
 /* contact section */
 #contact {
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .contacts-title {
     font-family: Macondo, sans-serif;
     font-size: 48px;
     text-align: center;
-    height: 50%;
 }
 
 .links {
@@ -187,5 +190,4 @@ button:hover {
     justify-content: center;
     gap: 50px;
     font-size: 24px;
-    height: 50%;
 }
