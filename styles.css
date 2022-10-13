@@ -254,9 +254,8 @@ button:hover {
     }
     
     .subname {
-        font-size: 1.5em;
-        letter-spacing: 2px;
-        font-family: Macondo, sans-serif;
+        font-size: 1em;
+        margin-left: 0px;
     }
 /*     
     .arrows {
