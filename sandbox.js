@@ -1,1 +1,3 @@
-console.log("you're beautiful girl")
+const aboutNav = document.getElementsByClassName('about-nav');
+
+console.log(aboutNav);

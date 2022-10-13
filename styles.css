@@ -162,6 +162,9 @@ margin-bottom: 30px;
     font-size: 1.5em;
     padding: 10px 25px;
 }
+.about-nav:hover {
+    cursor: pointer;
+}
 
 .onClick {
     background-color:rgb(66, 49, 75)
