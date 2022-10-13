@@ -267,6 +267,7 @@ button:hover {
         padding-top: 50px;
         margin-bottom: 50px;
         text-align: center;
+        border-top: 1px solid #fff;
     }
     .profile-img {
     border-radius: 50%;
