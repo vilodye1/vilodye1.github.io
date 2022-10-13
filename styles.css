@@ -153,6 +153,8 @@ margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-left: 50px;
+    gap: 20px;
 }
 
 .about-nav li {
