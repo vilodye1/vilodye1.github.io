@@ -235,12 +235,11 @@ button:hover {
 @media screen and (max-width: 600px) {
     .video-background {
         height: 100vh;
-        margin-left: 100px;
-        overflow: hidden;
+        width: 100vw;
     }
 
     video {
-        object-fit: cover;
+        object-fit: contain;
         margin-top: -1px;
     }
 }
