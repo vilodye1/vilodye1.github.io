@@ -18,36 +18,30 @@ body {
     min-height: 100vh;
     overflow-y: hidden;
 }
-
 video {
     position: absolute;
     top:0;
     left:0;
     width: 1200px;
 }
-
-
 .container {
     position: absolute;
     z-index: 2;
     top: 45%;
     left: 65%;
 }
-
 .name {
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1.5px;
     font-size: 60px;
     margin: 0;
 }
-
 .subname {
     font-size: 1.5em;
     margin-left: 120px;
     letter-spacing: 2px;
     font-family: Macondo, sans-serif;
 }
-
 .arrows {
     position: absolute;
     color: #fff;
@@ -94,7 +88,6 @@ video {
     padding-top: 20px;
     margin: 0;
 }
-
 .nav-list li {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -102,12 +95,10 @@ video {
     border-bottom: 1px solid rgba(255,255,255, 0);
     border-top: 1px solid rgba(255,255,255, 0);
 }
-
 .nav-list li:hover {
     border-bottom: 1px solid rgb(196, 196, 196);
     border-top: 1px solid rgb(196, 196, 196);
 }
-
 a {
     color: rgb(196, 196, 196);
     text-decoration: none;
@@ -120,17 +111,18 @@ a {
     height: 100vh;
 }
 
-.section-title {
+#projects .section-title {
     font-family: Macondo, sans-serif;
     font-size: 48px;
     padding-top: 130px;
+    margin-bottom: 100px;
     text-align: center;
 }
 .profile-img {
-border-radius: 6px;
-border: 3px solid #fff;
-width: 300px;
-height: 300px;
+    border-radius: 6px;
+    border: 3px solid #fff;
+    width: 300px;
+    height: 300px;
 }
 
 .about-me-p {
@@ -189,7 +181,7 @@ hr {
     max-width: 500px;
     border: 1px solid rgb(75, 113, 82);
     background: #000;
-    box-shadow: 3px 3px 20px rgba(166, 247, 203, 0.75);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.75);
     border-radius: 7px;
     margin-bottom: 50px;
 }
@@ -305,37 +297,62 @@ button:hover {
         font-size: 1.2em;
         margin-left: 0px;
     }
-
+    .arrows {
+        position: absolute;
+        color: #fff;
+        font-size: 20px;
+        left: 40%;
+        top: 85%;
+    }
     .navbar {
         display: none;
     }
-
-    .section-title {
-        padding-top: 50px;
-        margin-bottom: 50px;
+    .resume {
+        display: none;
+    }
+    #about-me {
         text-align: center;
-        border-top: 1px solid #fff;
+    }
+    
+    #projects .section-title {
+        font-size: 48px;
+        padding-top: 0;
+        margin-top:230px;
+        margin-bottom: 50px;
     }
     .profile-img {
-    border-radius: 50%;
-    border: 3px solid #fff;
-    width: 200px;
-    height: 215px;
-    margin-bottom: 20px;
+        border-radius: 6px;
+        border: 3px solid #fff;
+        width: 200px;
+        height: 200px;
     }
     
     .about-me-p {
-        width: 90%;
-        margin: 30px auto;
+        width: 75%;
+        margin: 30px;
         font-size: 1.2em;
         letter-spacing: 1.2px;
-        text-align: justify;
+        text-align: center;
     }
-
-    .about-flex{
-        display: none;
+    .about-me-p span {
+        font-size: 36px;
     }
-
+    
+    .about-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skillset-title {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+    .fa-brands, .fa-solid {
+        font-size: 40px;
+        margin: 10px;
+        transition: transform .2s linear;
+    }
     .project-container {
         text-align: center;
         max-width: 300px;
