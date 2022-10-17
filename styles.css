@@ -468,9 +468,7 @@ button:hover {
         margin-left: 0px;
         text-align: left;
     }
-    .subname:after {
 
-    }
     .arrows {
         position: absolute;
         color: #fff;
@@ -529,7 +527,7 @@ button:hover {
     #projects .section-title {
         font-size: 48px;
         padding-top: 300px;
-        margin-top:230px;
+        margin-top:190px;
     }
 
     #projects .section-title .data-aos {
