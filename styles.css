@@ -518,11 +518,18 @@ button:hover {
         transition: transform .2s linear;
     }
 
+    #projects {
+        margin-bottom: 100vh;
+    }
+
     #projects .section-title {
         font-size: 48px;
         padding-top: 300px;
         margin-top:230px;
+    }
 
+    #projects .section-title .data-aos {
+        display: none;
     }
 
     .container-group {
