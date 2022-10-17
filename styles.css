@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap');
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -44,6 +46,22 @@ video {
     letter-spacing: 2px;
     font-family: Macondo, sans-serif;
 }
+/* animated elipsis */
+.subname:after {
+  display: inline-block;
+  animation: dotty steps(1,end) 2s infinite;
+  content: '';
+}
+
+@keyframes dotty {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
+
+/* home arrow */
 .arrows {
     position: absolute;
     color: #fff;
@@ -106,12 +124,6 @@ a {
     text-decoration: none;
 }
 
-/* About Me Section*/
-
-#about-me {
-    text-align: center;
-    height: 100vh;
-}
 .section-title {
     font-family: Macondo, sans-serif;
     font-size: 48px;
@@ -119,6 +131,14 @@ a {
     text-align: center;
     margin: 0;
 }
+/* About Me Section*/
+
+#about-me {
+    text-align: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
 .profile-img {
     border-radius: 6px;
     border: 3px solid #fff;
@@ -145,8 +165,10 @@ a {
 .resume {
     position: absolute;
     left: 590px;
-    bottom: -560px;
+    bottom: -610px;
 }
+
+/* skillset and icons */
 .skillset-title {
     font-family: Macondo, sans-serif;
     font-size: 40px;
@@ -363,7 +385,7 @@ button {
     height: 40px;
     font-size: 16px;
     letter-spacing: 1.5px;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 /* contact section */
@@ -371,7 +393,7 @@ button {
     background-image: url('https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
     background-position: center;
     background-size:cover;
-    margin: 40px 0px;
+    margin: 20px 0px;
 }
 .box{
     height: 100vh;
@@ -402,6 +424,15 @@ button {
 
 .links i:hover {
     color:rgb(66, 49, 75);
+}
+
+/* Footer */
+.footer {
+    margin: 20px;
+    padding: 0;
+    font-family: poppins;
+    letter-spacing: 1.2px;
+    text-align: center;
 }
 
 /* Media queries */
