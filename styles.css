@@ -140,14 +140,14 @@ a {
 }
 
 .profile-img {
-    border-radius: 6px;
+    border-radius: 10%;
     border: 3px solid #fff;
     width: 300px;
-    height: 300px;
+    height: 400px;
 }
 .about-me-p {
     width: 40%;
-    margin:  0px 30px;
+    margin:  40px 30px;
     letter-spacing: 1.2px;
     text-align: left;
     font-family: poppins;
@@ -165,7 +165,7 @@ a {
 .resume {
     position: absolute;
 
-    bottom: -610px;
+    bottom: -675px;
 }
 
 /* skillset and icons */
@@ -487,10 +487,8 @@ button:hover {
     }
     
     .profile-img {
-        border-radius: 6px;
-        border: 3px solid #fff;
         width: 200px;
-        height: 200px;
+        height: 275px;
     }
     
     .about-me-p {
