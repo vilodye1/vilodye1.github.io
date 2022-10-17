@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7c4d1df5a4.js" crossorigin="anonymous"></script>
+    
     <title>Patricia Blasco</title>
+    
 </head>
 <body>
     <div className="title" id="home">
@@ -57,40 +60,56 @@
             <i class="fa-brands fa-bootstrap" style="color:rgb(134, 82, 174)"></i>
         </div>
     </div>
-
-
  
     <!-- Projects section -->
     <div id="projects">
         <h1 class="section-title">Featured Projects</h1>
         <!-- Project 1 -->
+        <!-- <button class="left-arrow btn"><</button>
+        <button class="right-arrow btn">></button> -->
+
         <div class="container-group">
-            <div class="project-container">
-                <img src="./resource/project-1.png" alt="Simple Stickies App">
-                <h2>Simple Stickies App</h2>
-                <p class="description">Created a simple sticky note application that allows users to create and delete sticky notes on their project board. This app also allows users to change the colors of their notes. The interface was designed to be as simplistic as possible in order to keep a user focused on their goal.</p>
-                <p class="skills-used"><span>HTML/CSS</span> <span>JavaScript</span> <span>React</span><span>JSON</span></p>
-                <button><a href="https://github.com/vilodye1/Simple-Stickies.git">code</a></button>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel-1" auto-scroll="7000">
+                    <section class="carousel-screen">
+                        <img src="./resource/project-1.png" alt="simple-stickies-app" />
+                        <section class="text-container">
+                            <p><a class="project-link" href="https://github.com/vilodye1/Simple-Stickies.git">Simple Stickies</a></p>
+                            <p>A simple sticky note application that allows users to create & customize sticky notes on a project board.</p>
+                        </section>
+                    </section>
+                    <section class="carousel-screen">
+                        <img src="./resource/project-2.png" alt="lockbox recipes app" />
+                        <section class="text-container">
+                            <p><a href="https://github.com/vilodye1/Lockbox-Recipes.git">Lockbox Recipes</a></p>
+                            <p>A Recipe storing Application meant to imitate a rolodex full of recipe cards. Users are able to add and search through the list of recipes. An ongoing project</p>
+                        </section>
+                    </section>
+                    <section class="carousel-screen">
+                        <img src="./resource/project-3.png" alt="simple-stickies-app" />
+                        <section class="text-container">
+                            <p><a href="https://github.com/vilodye1/Lockbox-Recipes.git">Portfolio Website</a></p>
+                            <p>Personal portfolio app created using HTML, CSS, and JavaScript.</p>
+                        </section>
+                    </section>
+    
+                    <!-- carousel content below this will not be animated -->
+                    <section class="circle-container">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </section>
+                    <div class="left-arrow">
+                        <span class="chevron left"></span>
+                    </div>
+                    <div class="right-arrow">
+                        <span class="chevron right"></span>
+                    </div>
+                </div>
             </div>
-                <!-- Project 2 -->
-                <div class="project-container">
-                    <img src="./resource/project-2.png" alt="Simple Stickies App">
-                    <h2>LockBox Recipes</h2>
-                    <p class="description">A Recipe storing Application meant to imitate a rolodex full of recipe cards. Users are able to add and search through the list of recipes. Implemented light/dark mode switch and a custom color header using React and Firebase.</p>
-                    <p class="skills-used"><span>HTML/CSS</span> <span>JavaScript</span> <span>React</span><span>Firebase</span></p>
-                    <button><a href="https://github.com/vilodye1/Lockbox-Recipes.git">code</a></button>
-                </div>
-                <!-- Project 3 -->
-                <div class="project-container">
-                    <img src="./resource/project-3.png" alt="Simple Stickies App">
-                    <h2>Portfolio Website</h2>
-                    <p class="description">Made in 24 hours using HTML, CSS, and JavaScript implementing features such as animation and responsive design. </p>
-                    <p class="skills-used"><span>HTML/CSS</span> <span>JavaScript</span></p>
-                    <button><a href="#">code</a></button>
-                </div>
         </div>
     </div>
-   
+<!-- contact me -->
     <div id="contact">
         <!-- <img class="background-img" href="https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"> -->
         <div class="box">
@@ -103,6 +122,10 @@
         </div>
 
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="sandbox.js"></script>
 </body>
 </html>
