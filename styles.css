@@ -495,7 +495,7 @@ button:hover {
     
     .about-me-p {
         width: 75%;
-        margin: 30px;
+        margin-bottom: 30px;
         font-size: 1.2em;
         letter-spacing: 1.2px;
         text-align: center;
@@ -503,6 +503,9 @@ button:hover {
     .about-me-p span {
         font-size: 36px;
     }
+    #about-me-p[data-aos="fade-left"] {
+        transform: translateY(50px);
+        }
     
     .about-flex {
         display: flex;
@@ -512,7 +515,7 @@ button:hover {
     }
     .skillset-title {
         font-size: 36px;
-        margin-top: 30px;
+        margin-top: 80px;
     }
     .fa-brands, .fa-solid {
         font-size: 40px;
@@ -521,7 +524,7 @@ button:hover {
     }
 
     #projects {
-        margin-bottom: 100vh;
+       margin-bottom: 100px;
     }
 
     #projects .section-title {
@@ -529,10 +532,7 @@ button:hover {
         padding-top: 300px;
         margin-top:190px;
     }
-
-    #projects .section-title .data-aos {
-        display: none;
-    }
+    
 
     .container-group {
         height: 50vh;
