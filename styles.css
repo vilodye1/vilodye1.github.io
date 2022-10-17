@@ -129,7 +129,7 @@ a {
     font-size: 48px;
     padding-top: 100px;
     text-align: center;
-    margin: 0;
+    margin-top: 150px;
 }
 /* About Me Section*/
 
@@ -144,6 +144,7 @@ a {
     border: 3px solid #fff;
     width: 300px;
     height: 450px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .about-me-p {
     width: 40%;
@@ -164,8 +165,7 @@ a {
 }
 .resume {
     position: absolute;
-
-    bottom: -675px;
+    bottom: -775px;
 }
 
 /* skillset and icons */
@@ -173,7 +173,7 @@ a {
     font-family: Macondo, sans-serif;
     font-size: 40px;
     font-weight: normal;
-    margin-top: 75px;
+    margin-top: 100px;
 }
 hr {
     margin: 0 auto;
