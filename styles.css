@@ -38,6 +38,7 @@ button:hover {
 }
 video {
     position: absolute;
+    object-fit: cover;
     top:0;
     left:0;
     width: 1200px;
@@ -482,6 +483,8 @@ color: rgb(214, 21, 214);
 
 /* mobile phones */
 @media screen and (max-width: 600px) {
+
+/* Home */
     .video-background {
         height: 100vh;
         width: 100vw;
@@ -516,54 +519,58 @@ color: rgb(214, 21, 214);
         left: 40%;
         top: 85%;
     }
+/* Navigation */
     .navbar {
         display: none;
     }
-    .resume {
-        display: none;
-    }
-    #about-me {
-        text-align: center;
-    }
     
+/* About */
+    .about-flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .profile-img {
         width: 200px;
         height: 300px;
     }
-    
-    .about-me-p {
-        width: 75%;
-        margin: 0;
-        margin-bottom: 30px;
-        font-size: 1.2em;
-        letter-spacing: 1.2px;
-        text-align: center;
-    }
-    .about-me-p span {
-        font-size: 36px;
-    }
-    #about-me-p[data-aos="fade-left"] {
-        transform: translateY(50px);
-        }
-    
-    .about-flex {
+
+    .about-title {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 48px;
     }
+
+    .about-me-p {
+        width: 80%;
+        margin: 0px auto;
+        margin-top: -30px;
+        text-align: center;
+        transition: linear 2s;
+    }
+
+    .resume {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+/* skillset */
     .skillset-title {
         font-size: 36px;
         margin-top: 80px;
     }
     .fa-brands, .fa-solid {
-        font-size: 40px;
-        margin: 10px;
-        transition: transform .2s linear;
+        justify-content: center;
+        font-size: 50px;
+        margin: 20px 30px;
     }
 
+/* featured projects */
     #projects {
-       margin-bottom: 100px;
+        height: 80vh;
+        margin-bottom: 0px;
     }
 
     #projects .section-title {
@@ -572,9 +579,9 @@ color: rgb(214, 21, 214);
         margin-top:270px;
         margin-bottom: 0;
     }
-
+/* carousel */
     .container-group {
-        height: 50vh;
+        height: 40vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -591,5 +598,33 @@ color: rgb(214, 21, 214);
         letter-spacing: 1.2px;
         font-size: 0.5em;
     }
+/* project links */
+    .repositories {
+        margin: 65px 10px;
+    }
+    
+    .repositories p {
+        font-size: 1.2em;
+    }
+    
+    .fa-github, 
+    .fa-codepen {
+    font-size: 60px;
+    padding: 0px 10px;
+    }
+
+/* contact me*/
+.contacts-title {
+    font-size: 48px;
+
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: 60px;
+}
+
     
 }
