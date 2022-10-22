@@ -524,6 +524,9 @@ color: rgb(214, 21, 214);
     }
     
 /* About */
+    #about-me {
+        padding-bottom: 100px;
+    }
     .about-flex {
         flex-direction: column;
         justify-content: center;
@@ -557,6 +560,7 @@ color: rgb(214, 21, 214);
     .resume {
         margin: 0 auto;
         margin-top: 30px;
+        transform:none();
     }
 
 /* skillset */
