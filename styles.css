@@ -15,6 +15,20 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%2326bb47' fill-opacity='0.2' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
 }
 
+button {
+    background: rgb(70, 158, 86);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+button:hover {
+    filter:brightness(90%);
+}
+
 /* Title */
 .video-background {
     position: relative;
@@ -95,7 +109,7 @@ video {
     backdrop-filter: blur(5px);
     box-shadow: 0px 0px 50px 10px #021306;
     z-index: 10;
-    margin-top: -10px;
+    margin-top: -15px;
     border-bottom: 1px solid rgb(75, 113, 82);
 }
 .nav-list ul {
@@ -124,56 +138,62 @@ a {
     text-decoration: none;
 }
 
-.section-title {
-    font-family: Macondo, sans-serif;
-    font-size: 48px;
-    padding-top: 100px;
-    text-align: center;
-    margin-top: 150px;
-}
 /* About Me Section*/
 
 #about-me {
     text-align: center;
     height: 100vh;
-    margin-top: 50px;
+    margin: 40px auto;
+}
+
+.about-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
 }
 
 .profile-img {
     border-radius: 10%;
     border: 3px solid #fff;
     width: 300px;
-    height: 450px;
+    height: 400px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.about-me-p {
-    width: 40%;
-    margin:  40px 30px;
-    letter-spacing: 1.2px;
-    text-align: left;
-    font-family: poppins;
-}
-.about-me-p span {
+
+.about-title {
+    display: flex;
+    margin: 0 50px;
+    padding: 0;
     font-family: Macondo, sans-serif;
     font-size: 48px;
-    text-align: center;
 }
-.about-flex {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+
+.about-me-p {
+    width: 500px;
+    margin: 0px 50px;
+    letter-spacing: 1.2px;
+    line-height: 1.7;
+    text-align: left;
+    font-family: poppins, sans-serif;
 }
+
+
 .resume {
-    position: absolute;
-    bottom: -775px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+
 }
 
 /* skillset and icons */
+
+
 .skillset-title {
     font-family: Macondo, sans-serif;
     font-size: 40px;
     font-weight: normal;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 hr {
     margin: 0 auto;
@@ -194,13 +214,23 @@ hr {
 /* Projects Section */
 #projects {
     position: relative;
-    height: 100vh;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    font-family: Macondo, sans-serif;
+    font-size: 48px;
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .container-group {
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +238,8 @@ hr {
 
 /* we do this because the carousel needs to be 100% width in order for the aspect ratio effect to work */
 .carousel-container {
-    max-width: 980px;
+    /* max-width: 980px; */
+    max-width: 900px;
     width: 95%;
 }
 
@@ -376,24 +407,28 @@ hr {
     }
 }
 
-button {
-    background: rgb(70, 158, 86);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    height: 40px;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    margin-bottom: 20px;
+/* project link */
+.repositories {
+    position: relative;
+    text-align: center;
+    margin-bottom: 75px;
 }
 
-button:hover {
-    filter:brightness(90%);
+.repositories p {
+    font-size: 1.5em;
+    font-family: poppins, sans-serif;
+}
+
+.fa-github, 
+.fa-codepen {
+font-size: 80px;
+padding: 0px 20px;
+color: rgb(214, 21, 214);
 }
 
 /* contact section */
 #contact {
-    background-image: url('https://images.unsplash.com/photo-1443724700460-763f42d9d6ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+    background-image: url('https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-position: center;
     background-size:cover;
     margin: 20px 0px;
@@ -404,11 +439,11 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(255,255,255,0.6);
+    background: rgba(255,255,255,0.8);
 }
 .contacts-title {
     font-family: Macondo, sans-serif;
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
     color: black;
 }
@@ -421,12 +456,17 @@ button:hover {
     font-size: 60px;
 }
 
+.fa-envelope,
+.fa-linkedin {
+    font-size: 1.5em;
+}
+
 .links i {
     color: black;
 }
 
 .links i:hover {
-    color:rgb(66, 49, 75);
+    color:rgb(73, 215, 57);
 }
 
 /* Footer */
