@@ -133,7 +133,12 @@
 <div class="footer">Patricia Blasco | 2022</div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+    disable: function() {
+    var maxWidth = 600;
+    return window.innerWidth < maxWidth;
+  }
+});
     </script>
     <script src="sandbox.js"></script>
 </body>
